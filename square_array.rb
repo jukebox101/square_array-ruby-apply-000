@@ -1,4 +1,4 @@
 def square_array(array)
   newArr = []
-  newArr.collect {}
+  newArr.collect {|int| int**2}
 end
